@@ -1,3 +1,50 @@
 #root {
+ 
   color: red;
+}*
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+margin: 0;
+  font-family: sans-serif;
+
+}
+header {
+  background-color: rgb(54, 3, 3);
+  display: flex;
+
+}
+
+h1 {
+  color: white;
+  align-self: center;
+  margin-left: 30rem;
+
+}
+span {
+  font-size: 1rem;
+  color: rgb(174, 41, 134);
+}
+.search {
+margin: 1rem;
+margin-top: 6rem;
+margin-left: 1rem;
+background-color: transparent;
+border: 2px solid white;
+border-radius: 50px;
+font-family: inherit;
+padding: 0.5 rem 1 rem;
+}
+
+.search:focus {
+  outline: none;
+  background-color:rgb(79, 6, 6);
+}
+.search::placeholder {
+  color: white;
+
 }
