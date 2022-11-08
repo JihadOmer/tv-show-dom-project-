@@ -3,19 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
-    <link href="style.css" rel="stylesheet" />
+    <title>TV Show Project | Jihad Omer (My GitHub name: Jihad Omer)</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+   
   </head>
-
   <body>
-    <div id="root">
-    </div>
 
-    <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
-    <script src="episodes.js"></script>
+    
+    
+      <h1>TV Shows Trending <span class="span"> <p> by tvmaze.com</p>  </span> </h1>
+    <fieldset>
+      <div class="searchfield">
+        <label for="selectEpisode">Select Episode</label>
+        <select onChange="selectEpisode()" name="selectEpisode" id="selectEpisode">
+        
+            <!--  Add List -->
 
-    <!-- Loads YOUR javascript code -->
-    <script src="script.js"></script>
+        </select>
+      </div>
+      <div class="inp">
+        <label for="searchBar">search Episode</label>
+        <input id="searchBar" name="searchBar" type="search" placeholder="select" onkeyup="searchCollection()" />
+      </div>
+      <span id="matches"></span>
+  </fieldset>
+        <div id="root"></div>
+    
+  
+     <script src="script.js" defer></script>
   </body>
 </html>
