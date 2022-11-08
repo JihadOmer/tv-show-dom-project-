@@ -77,9 +77,9 @@ div {
 }
 
 .epTitle {
-  padding: 0 5px;
+  padding: 2 rem;
   font-size: 1.5rem;
-  display: contents;
+  /* display:contents; removed this to apply padding to styling */
 }
 
 .epDescription {
